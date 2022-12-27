@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    margin:0;
+    min-height: 100vh; /*On spécifie la hatueur minimale*/
+    background-image:url(https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.result{
+    /* font-family: 'Rubik Vinyl', Geneva, Tahoma, sans-serif; */
+    
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: rgb(255,255,255,0.6);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    visibility: hidden;
+    width: fit-content;
+}
